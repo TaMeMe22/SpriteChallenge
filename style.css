@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav img{
+    width: 8rem;
+    margin-left: 4rem;
+}
+nav {
+    background-color: #009639;
+    color: white;
+    display: flex;
+    position: fixed;
+    height: 8rem;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    vertical-align: middle;
+    font-weight: 500;
+}
+ul{
+    display: flex;
+    padding-left: 3rem;
+}
+li{
+    padding: 2rem;
+    list-style: none;
+    padding-right: 5rem;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+li, .hover:visited{
+    color: white;
+}
+.hover:hover{
+    color: black;
+}
+.hero{
+    padding-top: 8rem;
+}
+.blackcover{
+    background-color: black;
+    margin-top: -1rem;
+}
+.black{
+    font-size: 70px;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+.mission{
+    text-decoration-line: line-through;
+    text-decoration-color: yellow; 
+    
+}
+.blackpara{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: white;
+    
+}
+span{
+    color: #518F2B;
+}
+.row{
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.column{
+    flex: 50%;
+    padding: 10px;
+}
+h4{
+    font-style: italic;
+}
+.lemon{
+    margin-top: 5rem;
+
+}
+.bottle{
+    margin-top: -2rem;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    background-color: #00964E;
+    height: 35rem;
+}
+.thirst{
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    float: right;
+    color: white;
+    margin-right: 20rem;
+    margin-top: 5rem;
+    font-style: italic;
+}
+.button{
+    background-color: #00934C; 
+    color: white; 
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 55rem;
+}
+.followus{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+.twit{
+    margin-top: -2.5rem;
+    float: right;
+    margin-right: 38rem;
+}
+.inst{
+    margin-top: -2.5rem;
+    float: right;
+    margin-right: 35rem;
+}
+.yout{
+    margin-top: -2.5rem;
+    float: right;
+    margin-right: 32rem;
+}
+.face{
+    margin-top: -2.5rem;
+    float: right;
+    margin-right: 29rem;
+}
+.spot{
+    margin-top: -2.5rem;
+    float: right;
+    margin-right: 26rem;
+}
+/* The grid: five equal columns that floats next to each other */
+.imgcol {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: black;
+  }
+  
+  /* Style the images inside the grid */
+  .imgcol img {
+    background-color: black;
+    cursor: pointer; 
+  }
+  
+  .imgcol img:hover {
+    opacity: 3;
+  }
+  
+  /* Clear floats after the columns */
+  .imgrow:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: white ;
+  }
+  
+  /* The expanding image container */
+  .container1 {
+    position:static;
+    display: none;
+    background-color: white;
+    margin-left: 35rem;
+    
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+.spriteway{
+    background-color: #BBB2B7;
+    display: flex;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  #518F2B;
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 0;
+
+}
+.playlist{ 
+  float: right;
+  margin-left: 2rem;
+}
+.button2{
+    background-color: #00934C; 
+    color: white; 
+    border: 2px solid transparent;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-right: 25rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 8px;
+    margin-top: 25rem;
+    margin-left: -15rem;
+}
+.podcast{
+    float: right;
+    margin-right: 11rem;
+}
+.button3{
+    background-color: #00934C; 
+    color: white; 
+    border: 2px solid transparent;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-right: 25rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 8px;
+    margin-top: 16rem;
+    margin-left: -25rem;
+}
+.loop{
+    justify-content: center;
+}
+.footlogo{
+    background-color: #009639;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+.flavors{
+    background-color: #009639;
+    color: white;
+    text-align: center;
+    padding-bottom: 10rem;
+    font-size: 24px;
+}
+
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 400px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], select, textarea {
+    width: 60%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 5px;
+    margin-bottom: 16px;
+    resize: horizontal;
+    font-size: 14px;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  footer{
+      background-color: #009639;
+      color: white;
+      font-size: 16px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
+  }
+
